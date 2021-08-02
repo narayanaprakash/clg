@@ -1,0 +1,100 @@
+<div >
+<div class="main " >
+       <div>
+    <img src="../../assets/sns.png" class="mt-2 mr-2 logo">
+    <p class="h2  mt-2 text-white head">SNS College of Engineering</p>
+    <p class="h5 text-white para">A unit of SNS Memorial Charitable Trust,Coimbatore</p>
+    </div>
+    
+    <h2>Counselling code:2734 </h2>
+    
+    
+</div>
+
+  
+<div >
+<mat-toolbar class="bg-primary mattool ">
+  <mat-toolbar-row>
+  <button mat-icon-button (click)="sidenav.toggle()" opened="true">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="menu-spacer"></span>
+  <div  fxShow="true" fxHide.lt-md="true">
+        
+        <span class="span1"><a [routerLink]="['/']" >HOME</a></span>
+        <span> <a href="#about">ABOUT US</a></span>
+        <!-- <span>EVENTS</span> -->
+        <span> <a href="#admission">ADMISSION</a></span>
+        <span><a href="#placement">PLACEMENT</a></span>
+        <a (click)="openDialog()"><span>LOGIN</span></a>
+        <span (click)="contact()"><a [routerLink]="['/contactUs']">CONTACT US</a></span>
+  </div>
+</mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container  fxFlexFill>
+  <mat-sidenav #sidenav  fxLayout="column" mode="over" > 
+    <mat-nav-list>
+      <a (click)="sidenav.toggle()" ></a>
+      <a href="#" mat-list-item>HOME</a>
+      <a href="#" href="#about" mat-list-item>ABOUT</a>
+      <a href="#" mat-list-item>ADMISSION</a>
+      <a href="#" mat-list-item>PLACEMENT</a>
+      <a href="#" mat-list-item>LOGIN</a>
+      <a  (click)="contact()" [routerLink]="['/contactUs']" href="#" mat-list-item>CONTACT US</a>
+    </mat-nav-list>
+  </mat-sidenav>
+ 
+</mat-sidenav-container>
+</div>
+</div>
+<router-outlet></router-outlet>
+
+	
+
+
+<div style="margin-top: 79px;" >
+      <div class=" bg-primary footer row">
+               <div class="col-md-4 col-sm-12 col-12 ugcourse">      
+            <h5 class="h4 text-white mt-1 ">UG Programmes</h5>
+           
+             <div class="ug"> 
+                  <p class=" text-white course" data-aos="zoom-out-left">
+                        Computer Science And Engineering
+                        Mechanical Engineering  <br>
+                        Electrical And Electronics Engineering<br>
+                        Civil Engineering<br>
+                        Electronics And Communication Engineering
+                        Information Technology
+                  </p>
+             </div>
+             </div>
+             <div class="col-md-4 col-sm-12 col-12  phdcourse">
+             <h5 class="h4 text-white mt-1 ph">Ph.d Programmes</h5>
+            <div class="phd">
+                  
+                            
+                  <p class="text-white" data-aos="zoom-out-left">
+                        Ph.D. in Computer Science Engineering
+                        Ph.D. in Electronics and Communication
+                         Ph.D. in Mechanical Engineering
+                   </p>
+            </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12 ugcontact">
+            <h5 class="h4 text-white mt-1 co">Contact Us</h5> 
+            <div class="contact"> 
+                  <p class="text-white" data-aos="zoom-out-right"  >
+                        Saravanampatti P.O,
+                        Coimbatore-641035,
+                        Tamil Nadu, India.
+                        +91 90477 77277        
+                        snstrustcbe@gmail.com
+                  </p>
+            </div>
+            </div>
+      </div>      
+<div class="footerinside">
+        <p class="text-white">Copyright © SNS College Of Engineering. All rights reserved.</p>
+</div> 
+</div>

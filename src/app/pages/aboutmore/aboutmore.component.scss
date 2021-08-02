@@ -1,0 +1,419 @@
+.page-image{
+    background-image: url("https://cdn.bitrix24.com/b11752903/landing/1e7/1e73f724b407312ca27019d7bd86193c/lawn_1x.jpg");
+    min-height: 350px;
+    position: relative;
+    background-size: cover;
+    background-position: 50%  50%;
+    background-repeat: no-repeat;
+  }
+ 
+ 
+  .title,h2{
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+    padding-top: 36px;
+    text-transform: capitalize;
+  }
+ .title,p{
+    color: white;
+    font-size: 19px;
+    font-family: serif;
+ }
+ h5{
+    text-align: center;
+    color: yellow;
+    margin-top: 149px;
+ }
+  .page-intro{
+    background-color:#1f1d1c;
+    height: 500px;
+  }
+  .page-intro p{
+    line-height: 2.0;
+    font-size: 14px;
+    font-family: 'open sans';
+    text-align: justify;
+    margin-left: 18px;
+  
+  }
+  .horizontal{
+    width: 10%;
+    height: 11px;
+    border-top: 7px solid yellow;
+    margin: auto;
+
+}
+  /* ---------intro------------------ */
+  
+  /* ----------feature-------------- */
+  .page-feature{
+    background-color: #1f1d1c;
+    height: 500px;
+  }
+  
+  .page-feature i{
+    display: block;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: #ea1818;
+    border: 1px solid #ea1818;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .page-feature .media-heading a{
+    color:white;
+    text-decoration: none;
+    font-family: 'roboto slab';
+    font-size: 18px;
+  }
+  
+  .page-feature p{
+    font-family: 'open sans';
+  }
+  .page-feature .row{
+    margin-top: 10px;
+  }
+  .page-feature .media{
+    margin-top: 20px;
+  }
+  .page-feature .media-body{
+    padding-bottom: 20px;
+    padding-left: 15px;
+  }
+  .features .media:hover i{
+    background-color: #ea1818;
+    color: #fff;
+    border: 1px solid transparent;
+  }
+  .features .media .media-body a:hover{
+    color: #ea1818;  
+  } 
+  /* ------------------------------feature------------------------------ */
+  /* ---------------------------------team------------------------------*/
+    .drone{
+      max-height: 1062px;
+    }
+    .drone h2{
+      font-family: 'roboto slab';
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .drone .subtitle{
+      font-family: 'open sans';
+      line-height: 2.0;
+    }
+     
+    .overlayinn img{
+      max-width: 73%;
+      max-height: 333px;
+    }
+    .overlayout {
+      background-color: rgba(247, 44, 8, 0.781);
+      height: 65%;
+      width: 70%;
+      opacity: 0;
+      top: 0;
+      left: 0;
+      position: absolute;
+      padding: 70px;
+      transition: opacity .5s;
+    }
+  
+    .overlayout:hover {
+      opacity: 1;
+      transition: opacity .5s;
+      
+    }
+    .overlayout .text-j{
+      font-size: 27px;
+      font-weight: bold;
+      font-family: cursive;
+      color: #000;
+    }
+    .overlayout .text{
+      font-size: 23px;
+      font-weight: bold;
+      font-family: cursive;
+      color: #000;
+  
+    }
+    .overlayout .work{
+      padding-left: 54px;
+      font-size: 21px;
+      font-family: auto;
+      color: #000;
+    }
+    
+    .overlayout p{
+      color: #000;
+      font-size: 19px;
+      font-style: normal;
+      padding-left: -44px;
+      margin-left: -16px;
+      margin-top: 21px;
+    }
+  
+  
+   .overlayout a{
+    color: black;
+    padding-left: 21px;
+    font-size: 26px;
+    padding-right: 5px
+   }
+   .overlayout i:hover{
+     color: white;
+    }
+    .image img{
+      width: 480;
+      height: 380;
+      margin-top: 60px;
+    }
+      
+    @media only screen and (max-width: 1109px)
+    {
+      .focus{
+        display: none;
+      }
+
+    }
+    @media only screen and (max-width: 764px)
+    {
+      .focus{
+        display: none;
+      }
+  
+    h5 {
+      text-align: center;
+      color: yellow;
+      margin-top: -66%;
+  }
+      .page-intro {
+        background-color: #1f1d1c;
+        height: 797px;
+    }
+    .drone[_ngcontent-btk-c107] {
+      height: 796px;
+    }
+      .image p{
+        color: white;
+    /* margin-top: 22px; */
+    width: 206%;
+    /* margin-right: 90px; */
+    margin-left: -87px;
+      }
+      
+    }
+    @media only screen and (max-width: 991px){
+      h5 {
+        text-align: center;
+        color: yellow;
+        margin-top: -17px;
+    }
+   
+ 
+    .overlayinn[_ngcontent-vlu-c107] {
+      height: 320px;
+      display: inline-block;
+      position: relative;
+      margin-left: 5%;
+      margin-top: -75px;
+  }
+ 
+.drone[_ngcontent-btk-c107] {
+  height: 796px;
+}
+
+    }
+
+    @media only screen and (max-width: 360px){
+      .page-image{
+        background-image: url("https://cdn.bitrix24.com/b11752903/landing/1e7/1e73f724b407312ca27019d7bd86193c/lawn_1x.jpg");
+        min-height: 350px;
+        position: relative;
+        background-size: cover;
+        background-position: 50%  50%;
+        background-repeat: no-repeat;
+      }
+     
+     .image img{
+      width: 338px;
+    height: 256px;
+    margin-top: 4%;
+     }
+      .title h2{
+        text-align: center;
+        font-size: 30px;
+        color: orange;
+        padding-top: 36px;
+        text-transform: capitalize;
+      }
+     .title p{
+        color: white;
+        font-size: 8px;
+        font-family: serif;
+     }
+     h5{
+        text-align: center;
+        color: yellow;
+        margin-top: 110px;
+     }
+      .page-intro{
+        background-color:#1f1d1c;
+        height: 908px
+      }
+      .page-intro p{
+        line-height: 2.0;
+        font-size: 14px;
+        font-family: 'open sans';
+        text-align: justify;
+        margin-left: 18px;
+      
+      }
+      .horizontal{
+        width: 10%;
+        height: 11px;
+        border-top: 7px solid yellow;
+        margin: auto;
+    
+    }
+      /* ---------intro------------------ */
+      
+      /* ----------feature-------------- */
+      .page-feature{
+        background-color: #1f1d1c;
+        height: 500px;
+      }
+      
+      .page-feature i{
+        display: block;
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        color: #ea1818;
+        border: 1px solid #ea1818;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .page-feature .media-heading a{
+        color:white;
+        text-decoration: none;
+        font-family: 'roboto slab';
+        font-size: 18px;
+      }
+      
+      .page-feature p{
+        font-family: 'open sans';
+      }
+      .page-feature .row{
+        margin-top: 10px;
+      }
+      .page-feature .media{
+        margin-top: 20px;
+      }
+      .page-feature .media-body{
+        padding-bottom: 20px;
+        padding-left: 15px;
+      }
+      .features .media:hover i{
+        background-color: #ea1818;
+        color: #fff;
+        border: 1px solid transparent;
+      }
+      .features .media .media-body a:hover{
+        color: #ea1818;  
+      } 
+      /* ------------------------------feature------------------------------ */
+      /* ---------------------------------team------------------------------*/
+        .drone{
+         
+    
+          height: 1368px;
+        }
+        .drone h2{
+          font-family: 'roboto slab';
+          font-weight: 500;
+          text-transform: capitalize;
+        }
+        .drone .subtitle{
+          font-family: 'open sans';
+          line-height: 2.0;
+        }
+        .overlayinn{
+          
+            height: 320px;
+            display: inline-block;
+            position: relative;
+            margin-left: 5%;
+            margin-top: -4px;
+          
+        }
+      .overlayinn img{
+        width: 300px;
+      }
+        .overlayout {
+          background-color: rgba(247, 44, 8, 0.781);
+          height: 125%;
+          width: 100%;
+          opacity: 0;
+          top: 0;
+          left: 0;
+          position: absolute;
+          padding: 70px;
+          transition: opacity .5s;
+        }
+      
+        .overlayout:hover {
+          opacity: 1;
+          transition: opacity .5s;
+          
+        }
+        .overlayout .text-j{
+          font-size: 27px;
+          font-weight: bold;
+          font-family: cursive;
+          color: #000;
+        }
+        .overlayout .text{
+          font-size: 23px;
+          font-weight: bold;
+          font-family: cursive;
+          color: #000;
+      
+        }
+        .overlayout .work{
+          padding-left: 54px;
+          font-size: 21px;
+          font-family: auto;
+          color: #000;
+        }
+        
+        .overlayout p{
+          color: #000;
+          font-size: 19px;
+          font-style: normal;
+          padding-left: -44px;
+          margin-left: -16px;
+          margin-top: 21px;
+        }
+      
+      
+       .overlayout a{
+        color: black;
+        padding-left: 21px;
+        font-size: 26px;
+        padding-right: 5px
+       }
+       .overlayout i:hover{
+         color: white;
+        }
+    }

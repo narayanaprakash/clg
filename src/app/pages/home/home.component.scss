@@ -1,0 +1,506 @@
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.bg-video__inner, .bg-video__video {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.second{
+    height:841px;
+}
+
+.carddetails{
+    width: 80%;
+    margin: auto;
+    margin-top: -5%;
+    height: 184px;
+}
+.example-card{
+        box-shadow: 3px 1px 2px 3px #888888;
+        width: 33%;
+        height: 150px;
+        float: left;
+}
+.icons{
+    font-size:36px;
+}
+.circle{
+  max-width: 30px;
+  max-height: 34px;
+  border-radius: 17px;
+  margin-top: 11%;
+  background-color: white;
+}
+.circleicon{
+    margin-top: 11px;
+   
+}
+.card1{
+    
+    margin-left: 20%;
+}
+h6{
+    margin-left: 27%;
+}
+.about{
+    
+
+    background-image: url("../../../assets/snsce.jpg"); /* The image used */
+    width: 75%;
+    height: 600px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.about h4{
+text-align: center;
+padding-top: 44px;
+font-size: 43px;
+}
+.about h3{
+color: white;
+}
+a{
+text-decoration: none;
+color:white;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 350px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+  }
+.card-body{
+background-color:yellow;
+color:black
+}
+.card-body p{
+font-family: auto;
+}
+.about h5{
+    color: white;
+   
+    font-size: 17px;
+    margin-left: 9px;
+    display: flex;
+    font-family: emoji;
+}
+
+.para{
+font-size: 15px;
+}
+.g-bg-img-hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.placementheader{
+  margin-top: 6%;
+  width: 100%;
+  height: 119px;
+  background-color: chocolate;
+}
+.placementheader h2{
+  color:white;
+  padding-top: 34px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.horizontal{
+  width: 10%;
+  height: 11px;
+  border-top: 7px solid whitesmoke;
+  margin: auto;
+
+}.coursesheader h2{
+  color:white;
+  padding-top: 34px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.coursesheader{
+  margin-top: 6%;
+  width: 100%;
+  height: 119px;
+  background-color: rgb(248, 248, 63);
+}
+.courses{
+  width: 4%;
+  height: 11px;
+  border-top: 7px solid whitesmoke;
+  margin: auto;
+
+}
+.Placements{
+  margin-left: 17%;
+  width: 71%;
+  background-image: url("../../../assets/placements.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.g-bg-primary {
+  background-color: yellow;
+}
+.placementinfo{
+  margin-top: 6%;
+  width: 100%;
+  height: 185px;
+  background-color: chocolate;
+}
+.placementinfo h1{
+  color: white;
+  margin-top: 33px;
+  margin-left: 71px;
+}
+.placementinfo p{
+  color: white;
+    margin-left: 71px;
+    font-family: math;
+}
+.know{
+  width: 333px;
+    float: left;
+    height: 600px;
+}
+.snsgroup h2{
+  font-family: 'FontAwesome';
+
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.zoom:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: cyan;
+  font-size: 30px;
+  position: absolute;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 360px) {
+  .embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 32%;
+    border: 0;
+}
+.card a{
+  text-align: center;
+  width: 49%;
+  height: 16px;
+  font-size: 6px;
+}
+.know {
+  width:152px;
+  float:left;
+  height: 296px;
+}
+.carddetails{
+  width: 80%;
+  margin: auto;
+  margin-top: -135%;
+  height: 68px;
+}
+.example-card{
+  box-shadow: 3px 1px 2px 3px #888888;
+    width: 33%;
+    height: 78px;
+    float: left;
+}
+h6 {
+  margin-left: 47%;
+  font-size: 6px;
+}
+.icons {
+  font-size: 16px;
+  float: left;
+}
+.circle {
+  width: 58%;
+  height: 34px;
+  border-radius: 17px;
+  margin: inherit;
+  margin-top: 25%;
+  background-color: white;
+}
+.circleicon{
+  padding-left: 0%;
+}
+.card h4{
+  font-size: 12px;
+}
+.card p{
+  font-size: 7px;
+}
+.about h4{
+  color: yellow;
+  font-size: 18px;
+  padding-top: 75px;
+}
+.about h3{
+
+  font-size: 7px;
+}
+.about h5{
+
+  font-size: 4px;
+}
+.about {
+  
+  background-image: url("../../../assets/snsce.jpg");
+  width: 58%;
+  height: 294px;
+  margin-top: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.know{
+  width: 370px;
+    float: left;
+    
+}
+.Placements{
+  margin-left: 4%;
+    width: 77%;
+  background-image: url("../../../assets/placements.png");
+  height: 171px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.placementinfo{
+  margin-top: 6%;
+  width: 100%;
+  height: 106px;
+  background-color: chocolate;
+}
+.placementinfo h1{
+  color: white;
+  margin-top: 33px;
+  margin-left: 20px;
+  font-size: 7px;
+}
+.placementinfo p{
+  color: white;
+    margin-left: 17px;
+    font-family: math;
+    font-size: 7px;
+}
+}
+@media only screen and (max-width: 320px){
+  .embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 32%;
+    border: 0;
+}
+.card a{
+  text-align: center;
+  width: 49%;
+  height: 16px;
+  font-size: 6px;
+}
+.know {
+  width:152px;
+  float:left;
+  height: 296px;
+}
+.carddetails{
+  width: 80%;
+  margin: auto;
+  margin-top: -135%;
+  height: 68px;
+}
+.example-card{
+  box-shadow: 3px 1px 2px 3px #888888;
+    width: 33%;
+    height: 78px;
+    float: left;
+}
+h6 {
+  margin-left: 47%;
+  font-size: 6px;
+}
+.icons {
+  font-size: 16px;
+  float: left;
+}
+.circle {
+  width: 58%;
+  height: 34px;
+  border-radius: 17px;
+  margin: inherit;
+  margin-top: 25%;
+  background-color: white;
+}
+.circleicon{
+  padding-left: 0%;
+}
+.card h4{
+  font-size: 12px;
+}
+.card p{
+  font-size: 7px;
+}
+.about h4{
+  color: yellow;
+  font-size: 18px;
+  padding-top: 75px;
+}
+.about h3{
+
+  font-size: 7px;
+}
+.about h5{
+  color: white;
+     
+      font-size: 7px;
+      margin-left: 9px;
+      display: flex;
+      font-family: emoji;
+}
+.about {
+  
+  background-image: url("../../../assets/snsce.jpg");
+  width: 58%;
+  height: 294px;
+  margin-top: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.know{
+  width: 370px;
+    float: left;
+    
+}
+.Placements{
+  margin-left: 4%;
+    width: 77%;
+  background-image: url("../../../assets/placements.png");
+  height: 171px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.placementinfo{
+  margin-top: 6%;
+  width: 100%;
+  height: 106px;
+  background-color: chocolate;
+}
+.placementinfo h1{
+  color: white;
+  margin-top: 33px;
+  margin-left: 20px;
+  font-size: 7px;
+}
+.placementinfo p{
+  color: white;
+    margin-left: 17px;
+    font-family: math;
+    font-size: 7px;
+}
+}
+
+@media only screen and (max-width: 992px){
+  .placementinfo{
+    margin-top: 6%;
+    width: 100%;
+    height: 324px;
+    background-color: chocolate;
+  }   
+} 
+// @media only screen and (min-width: 411px){
+//     .circle[_ngcontent-cby-c108] {
+//       width: 14%;
+//       height: 34px;
+//       border-radius: 17px;
+//       margin-top: 30%;
+//       background-color: white;
+//     }
+    
+// }
