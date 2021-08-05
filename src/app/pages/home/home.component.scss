@@ -19,7 +19,7 @@
 .embed-responsive {
     position: relative;
     display: block;
-    width: 100%;
+    width: 101%;
     padding: 0;
     overflow: hidden;
 }
@@ -29,7 +29,7 @@
 
 .carddetails{
     width: 80%;
-    margin: auto;
+    margin: -5% auto auto;
     margin-top: -5%;
     height: 184px;
 }
@@ -52,6 +52,10 @@
 .circleicon{
     margin-top: 11px;
    
+}
+.card2{
+  max-width: fit-content;
+  
 }
 .card1{
     
@@ -251,7 +255,14 @@ font-size: 15px;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
+@media only screen and (max-width: 906px) {
+        .video{
+          height: 522px;
+        }
+        iframe{
+          height: 557px;
+        }
+}
 
 @media only screen and (max-width: 360px) {
   .embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video{
@@ -486,14 +497,14 @@ h6 {
 }
 }
 
-@media only screen and (max-width: 992px){
-  .placementinfo{
-    margin-top: 6%;
-    width: 100%;
-    height: 324px;
-    background-color: chocolate;
-  }   
-} 
+// @media only screen and (max-width: 992px){
+//   .placementinfo{
+//     margin-top: 6%;
+//     width: 100%;
+//     height: 324px;
+//     background-color: chocolate;
+//   }   
+// } 
 // @media only screen and (min-width: 411px){
 //     .circle[_ngcontent-cby-c108] {
 //       width: 14%;

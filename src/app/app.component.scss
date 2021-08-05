@@ -3,6 +3,22 @@
     background-color: lightskyblue;
     width: 100%;
 }
+// @media only screen   
+// and (min-device-width : 768px)   
+// and (max-device-width : 1024px)  
+// {
+//     .mainpages{
+//         display: block;
+//     }
+// }
+// @media only screen   
+// and (min-width: 1030px)   
+// and (max-width: 1366px)  
+// {
+//     .mainpages{
+//         display: block;
+//     }
+// }
 .main h2{
     color: white;
     font-size: 21px;
@@ -142,8 +158,15 @@ button{
     }
    
 }
+@media only screen and (max-width: 540px) {
+    .mainpages{
+        display: none;
+    }
+}
 @media only screen and (max-width: 360px) {
-    
+    .mainpages{
+        display: none;
+    }
     .main{
         height: 48px;
     }
@@ -265,6 +288,9 @@ h5{
 }
 
 @media only screen and (max-width: 320px){
+    .mainpages{
+        display: none;
+    }
     .main{
         height: 48px;
     }
@@ -382,6 +408,9 @@ h5{
 }
 }
 @media only screen and (max-width: 411px){
+    .mainpages{
+        display: none;
+    }
     .main{
         height: 127px;
     }
@@ -492,6 +521,9 @@ h5{
         float: left;
         width: 28%;
     }
+    .mainpages{
+        display: none;
+    }
     
     .contact p{
         width: 25%;
@@ -508,6 +540,9 @@ h5{
     
         .main{
             height: 127px;
+        }
+        .mainpages{
+            display: none;
         }
         .head{
     
